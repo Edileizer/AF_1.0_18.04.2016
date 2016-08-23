@@ -1,0 +1,8 @@
+					      0 - PODE										1 - um somente um
+cada ENTIDADE 'A'               NOME_RELACIONAMENTO   		                     ENTIDADE 'B'
+					      1 - DEVE										N - muitos		
+
+
+					      0 - PODE										1 - um somente um
+cada ENTIDADE 'B'               NOME_RELACIONAMENTO   		                     ENTIDADE 'A'
+					      1 - DEVE										N - muitos	

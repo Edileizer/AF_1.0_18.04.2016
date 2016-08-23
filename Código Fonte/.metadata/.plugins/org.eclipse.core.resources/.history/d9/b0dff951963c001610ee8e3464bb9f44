@@ -1,0 +1,17 @@
+package br.pucgoias.agenda.persistencia;
+
+import org.springframework.stereotype.Repository;
+
+/**
+ * Classe que define as operacoes da camada de persistencia de Telefone
+ * @author Edileizer
+ *
+ */
+
+
+/*@Repository
+public class TelefoneDAOImpl extends GenericoDAOImpl<Telefone, Integer> implements
+		TelefoneDAO {
+
+}
+*/

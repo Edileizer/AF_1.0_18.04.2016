@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<head>  
+		<link rel="StyleSheet" type="text/css" href="../../css/estilo.css"></link>  
+		<script language="javascript" src="../../js/editarPessoa.js" charset="ISO-8859-1"/>
+	</head>
+	<body>
+		<f:view>
+			<h:form id="formulario">
+				<h:graphicImage url="../../images/agenda.jpg"></h:graphicImage>
+				<br/>
+				<h:inputHidden id="idPessoa" value="#{pessoaController.pessoaBean.idPessoa}" />
+				<h:outputLabel value="Nome:" /> <h:inputText id="nome" value="#{pessoaController.pessoaBean.dsNome}" size="50" maxlength="50" />
+				<BR></BR>
+				<h:outputLabel value="Idade:" /> <h:inputText id="idade" value="#{pessoaController.pessoaBean.vlIdade}" size="5" maxlength="2"/>
+				<br/>
+				<h:outputLabel value="Telefone:" /> 
+				<h:inputText id="numero" value="#{pessoaController.telefoneBean.dsNumero}" size="15" maxlength="15"/>
+				<h:selectOneListbox size="1" value="#{pessoaController.telefoneBean.clTipo}">
+					<f:selectItem itemLabel="Comercial" itemValue="C" />
+					<f:selectItem itemLabel="Residencial" itemValue="R" />
+				</h:selectOneListbox>
+				<h:commandButton styleClass="button2" value="Adicionar" action="#{pessoaController.adicionarEditar}" onclick="return validarTelefone();"/>
+
+				<br/>
+				<h:dataTable border="1" id="telefones" value="#{pessoaController.pessoaBean.listaTelefone}" var="fone" >
+					<h:column>
+						<f:facet name="header">
+							<h:outputLabel value="Número" />
+						</f:facet>
+						<h:inputHidden value="#{fone.idTelefone}" id="idTelefone" />
+						<h:outputLabel value="#{fone.dsNumero}"/>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputLabel value="Tipo" />
+						</f:facet>
+						<h:outputLabel value="#{fone.clTipo}" />
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputLabel value="Operação" />
+						</f:facet>
+						<h:commandButton styleClass="button2" value="Remover" action="#{pessoaController.remover}"/>
+					</h:column>
+				</h:dataTable>
+				<br/>
+				<h:commandButton styleClass="button" value="Salvar" action="#{pessoaController.alterar}"  onclick="return validarFormulario();"/>
+				<h:commandButton styleClass="button" value="Excluir" action="#{pessoaController.excluir}" />
+			</h:form>
+		</f:view>
+	</body>
+
+</html>

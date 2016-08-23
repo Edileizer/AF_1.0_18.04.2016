@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13974159145520" configfile="/ProjetoAgenda/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" id="pf13974159613511" outlinks="pf13974159613512 pf13974159613513 pf13974159613514 pf13974159613515 pf13974159613516" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="xhtml/sucesso" id="pf13974159613517" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13974159613512" path="/xhtml/sucesso.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="xhtml/falha" id="pf13974159613518" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf13974159613513" path="/xhtml/falha.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="xhtml/vwListarPessoa" id="pf13974159613519" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf13974159613514" path="/xhtml/vwListarPessoa.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="xhtml/vwEditarPessoa" id="pf139741596135110" referenceLink="//@navigationRule.0/@navigationCase.3/@toViewId|" inlinks="pf13974159613515" path="/xhtml/vwEditarPessoa.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="xhtml/vwCriarPessoa" id="pf139741596135111" referenceLink="//@navigationRule.0/@navigationCase.4/@toViewId|" inlinks="pf13974159613516" path="/xhtml/vwCriarPessoa.xhtml"/>
+  <links id="pf13974159613512" target="pf13974159613517" source="pf13974159613511" outcome="sucesso"/>
+  <links id="pf13974159613513" target="pf13974159613518" source="pf13974159613511" outcome="falha"/>
+  <links id="pf13974159613514" target="pf13974159613519" source="pf13974159613511" outcome="listar"/>
+  <links id="pf13974159613515" target="pf139741596135110" source="pf13974159613511" outcome="editar"/>
+  <links id="pf13974159613516" target="pf139741596135111" source="pf13974159613511" outcome="criar"/>
+</pageflow:Pageflow>

@@ -1,0 +1,6 @@
+127.0.0.1 - - [15/Jun/2016:21:24:37 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Jun/2016:21:24:59 -0300] "GET /ProjetoAgenda/faces/xhtml/sucesso.xhtml HTTP/1.1" 200 920
+0:0:0:0:0:0:0:1 - - [15/Jun/2016:21:25:18 -0300] "GET /AgendaFacil/faces/xhtml/index1.xhtml HTTP/1.1" 404 1023
+0:0:0:0:0:0:0:1 - - [15/Jun/2016:21:25:41 -0300] "GET /AgendaFacil/faces/xhtml/index1.xhtml HTTP/1.1" 404 1023
+0:0:0:0:0:0:0:1 - - [15/Jun/2016:21:25:46 -0300] "GET /AgendaFacil/faces/xhtml/index1.xhtml HTTP/1.1" 404 1023
+0:0:0:0:0:0:0:1 - - [15/Jun/2016:21:25:49 -0300] "GET /AgendaFacil/faces/xhtml/index1.xhtml HTTP/1.1" 404 1023

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::0" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="sucesso::#xhtml#sucesso.xhtml" NAME="output"
+    PATH="/xhtml/sucesso.xhtml" TARGET="rules:#xhtml#sucesso.xhtml"
+    TITLE="sucesso" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="falha::#xhtml#falha.xhtml" NAME="output1"
+    PATH="/xhtml/falha.xhtml" TARGET="rules:#xhtml#falha.xhtml"
+    TITLE="falha" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="listar::#xhtml#vwListarAgendamento.xhtml"
+    NAME="output2" PATH="/xhtml/vwListarAgendamento.xhtml"
+    TARGET="rules:#xhtml#vwListarAgendamento.xhtml" TITLE="listar" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="editar::#xhtml#vwAlterarAgendamento.xhtml"
+    NAME="output3" PATH="/xhtml/vwAlterarAgendamento.xhtml"
+    TARGET="rules:#xhtml#vwAlterarAgendamento.xhtml" TITLE="editar" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="criar::#xhtml#vwCriarAgendamento.xhtml"
+    NAME="output4" PATH="/xhtml/vwCriarAgendamento.xhtml"
+    TARGET="rules:#xhtml#vwCriarAgendamento.xhtml" TITLE="criar" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#xhtml#vwListarAgendamento.xhtml"
+  PATH="/xhtml/vwListarAgendamento.xhtml" SHAPE="304,208,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#xhtml#vwCriarAgendamento.xhtml"
+  PATH="/xhtml/vwCriarAgendamento.xhtml" SHAPE="304,336,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#xhtml#sucesso.xhtml"
+  PATH="/xhtml/sucesso.xhtml" SHAPE="304,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#xhtml#vwAlterarAgendamento.xhtml"
+  PATH="/xhtml/vwAlterarAgendamento.xhtml" SHAPE="304,272,50,25" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#xhtml#falha.xhtml" PATH="/xhtml/falha.xhtml"
+  SHAPE="312,128,50,25" model-entity="JSFProcessGroup"/>
+</PROCESS>

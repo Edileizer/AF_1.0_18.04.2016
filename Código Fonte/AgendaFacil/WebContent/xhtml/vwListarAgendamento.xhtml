@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<head>  
+		<link rel="StyleSheet" type="text/css" href="../../css/estilo.css"></link>  
+		<script language="javascript" src="../../js/listarPessoa.js" charset="ISO-8859-1"/>
+	</head>
+	<body>
+		<f:view>
+			<h:form id="formulario">
+				<h:graphicImage url="../../images/agenda.jpg"></h:graphicImage>
+				<input type="hidden" id="idPessoa" name="idPessoa"/>
+				<br/>
+				<h:dataTable border="1" styleClass="sample" id="pessoas" value="#{pessoaController.listaPessoaBean}" var="pessoa">
+					<h:column>
+						<f:facet name="header">
+							<h:outputLabel value="Nome" />
+						</f:facet>
+						<h:inputHidden value="#{pessoa.idPessoa}" />
+						<h:outputLabel value="#{pessoa.dsNome}" />
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputLabel value="Idade" />
+						</f:facet>
+						<h:outputLabel value="#{pessoa.vlIdade}" />
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputLabel value="" />
+						</f:facet>
+						<h:message for="#{pessoaController}"/>
+						<h:selectOneRadio id="selecionado" value="#{pessoaController.pessoaBean.idPessoa}" onclick="selecionarItem('idPessoa',this);">
+							<f:selectItem itemValue="#{pessoa.idPessoa}"/>
+						</h:selectOneRadio>
+					</h:column>
+				</h:dataTable>
+				<br/>
+				<h:commandButton styleClass="button" value="Novo" action="#{pessoaController.criar}" />
+				<h:commandButton styleClass="button" value="Editar" action="#{pessoaController.consultar}" onclick="return validarSelecionado()" />
+				<h:messages />
+			</h:form>
+		</f:view>
+	</body>
+
+</html>

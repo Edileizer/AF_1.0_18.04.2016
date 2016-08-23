@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;AgendaFacil/src&apos;&#x0D;&#x0A;- Original project: &apos;ProjetoAgenda&apos;&#x0D;&#x0A;- Destination element: &apos;AgendaFacil/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ProjetoAgenda/src/br.pucgoias.agenda.negocio&#x0D;&#x0A;     ProjetoAgenda/src/br.pucgoias.agenda.persistencia" description="Copy packages" destination="=AgendaFacil/src" element1="/src&lt;br.pucgoias.agenda.negocio" element2="/src&lt;br.pucgoias.agenda.persistencia" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1467045847623" version="1.0"/>
+</session>

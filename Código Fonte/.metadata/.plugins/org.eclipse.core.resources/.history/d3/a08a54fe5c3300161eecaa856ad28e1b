@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" lang="pt-br" 
+	  xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<head>      
+		
+		<meta charset="utf-8"> </meta>
+	
+		<!-- Definindo resolução dos dispositivos moveis -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Edileizer Muoio</title>
+		<link rel="shortcut icon" href="img/title.png" type="image/type here"></link>
+		
+		<!-- Incluindo Arquivos CSS -->
+		<link rel="stylesheet" href="css/normalize.css"></link>
+		<link rel="stylesheet" href="css/foundation.css"></link>
+		
+		
+		<!-- Mordernizr personalizado para a fundação. -->
+		<script src="js/vendor/modernizr.js"></script>
+		
+		<style>
+		.fullWidth {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: initial;
+		}
+		
+		.darkBlue {
+			background-color: #00568F;
+		}
+		
+		.blackTopBar {
+			background-color: #333333;
+		}
+		
+		.black {
+			background-color: #000000;
+		}
+		
+		.row {
+			margin-top: 0;
+		}
+		
+		.white {
+		color: white;
+		}
+		</style>
+		</head>
+	
+	
+	
+	<body>
+		<f:view>
+			<h:form>
+				<h:outputText value="Falhou!!!" />
+				<br/>
+				<h:messages />
+				<br/>
+				<h:commandButton styleClass="button" action="#{pessoaController.listar}" value="Listar Pessoas" id="listar"/>
+			</h:form>
+		</f:view>
+	</body>
+</html>

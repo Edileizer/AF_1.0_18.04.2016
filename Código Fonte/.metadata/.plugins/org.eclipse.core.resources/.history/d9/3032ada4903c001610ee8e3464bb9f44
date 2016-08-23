@@ -1,0 +1,5 @@
+package org.primefaces.context;
+
+public class RequestContext {
+
+}

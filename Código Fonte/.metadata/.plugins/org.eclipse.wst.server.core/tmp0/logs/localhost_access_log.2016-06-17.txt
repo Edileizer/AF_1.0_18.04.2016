@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [17/Jun/2016:06:23:53 -0300] "GET /ProjetoAgenda/faces/xhtml/index.xhtml HTTP/1.1" 200 2794
+0:0:0:0:0:0:0:1 - - [17/Jun/2016:06:23:53 -0300] "GET /ProjetoAgenda/faces/xhtml/css/estilo.css HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Jun/2016:06:28:17 -0300] "GET /ProjetoAgenda/faces/xhtml/sucesso.xhtml HTTP/1.1" 200 920
+0:0:0:0:0:0:0:1 - - [17/Jun/2016:06:28:24 -0300] "GET /ProjetoAgenda/faces/xhtml/index.xhtml HTTP/1.1" 200 2794
+0:0:0:0:0:0:0:1 - - [17/Jun/2016:06:28:24 -0300] "GET /ProjetoAgenda/faces/xhtml/css/estilo.css HTTP/1.1" 404 1019

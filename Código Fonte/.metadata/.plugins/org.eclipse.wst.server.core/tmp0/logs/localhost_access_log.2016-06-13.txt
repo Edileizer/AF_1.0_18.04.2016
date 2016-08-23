@@ -1,0 +1,15 @@
+127.0.0.1 - - [13/Jun/2016:20:30:23 -0300] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [13/Jun/2016:20:31:25 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:32:21 -0300] "GET /ProjetoAgenda/faces/xhtml/vwPrincipal.xhtml HTTP/1.1" 200 1056
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:32:21 -0300] "GET /ProjetoAgenda/faces/xhtml/css/estilo.css HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:34:01 -0300] "GET /ProjetoAgenda/faces/xhtml/sucesso.xhtml HTTP/1.1" 200 920
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:34:01 -0300] "GET /ProjetoAgenda/css/estilo.css HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:34:14 -0300] "GET /ProjetoAgenda/faces/xhtml/sucesso.xhtml HTTP/1.1" 200 920
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:34:14 -0300] "GET /ProjetoAgenda/css/estilo.css HTTP/1.1" 200 1168
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:34:25 -0300] "GET /ProjetoAgenda/faces/xhtml/vwPrincipal.xhtml HTTP/1.1" 200 1056
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:34:25 -0300] "GET /ProjetoAgenda/faces/xhtml/css/estilo.css HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:36:53 -0300] "GET /AgendaFacil/faces/xhtml/vwPrincipal.xhtml HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:36:53 -0300] "GET /AgendaFacil/faces/xhtml/css/estilo.css HTTP/1.1" 404 1015
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:45:12 -0300] "POST /AgendaFacil/faces/xhtml/vwPrincipal.xhtml HTTP/1.1" 500 3941
+127.0.0.1 - - [13/Jun/2016:20:45:46 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Jun/2016:20:45:46 -0300] "POST /AgendaFacil/faces/xhtml/vwPrincipal.xhtml HTTP/1.1" 500 3941

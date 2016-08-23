@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <path value="/AgendaFacil/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="AgendaFacil"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/dom4j-1.6.1.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-orm-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/hsqldb-2.3.2.jar"/>
+  <path value="C:/Users/edile/Google Drive/ADS-PUC/mysql-connector-java-5.1.39-bin.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-test-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/log4j-1.2.12.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/hibernate-entitymanager-4.1.0.Final.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/hibernate-jpamodelgen-1.2.0.Final.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/jsf-api-2.2.6.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="AgendaFacil"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-tx-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/hibernate-core-4.1.0.Final.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/jsf-impl-2.2.6-javadoc.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/jsf-impl-2.2.6.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/meta-inf/html_basic.tld" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/meta-inf/jsf_core.tld" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/meta-inf/mojarra_ext.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/meta-inf/mojarra_ext.tld" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="AgendaFacil"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.6.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="AgendaFacil"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/xml-apis-1.0.b2.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/javassist-3.12.1.GA.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/aopalliance-1.0.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/antlr-2.7.7.jar"/>
+  <path value="C:/Users/edile/Documents/AF_1.0_18.04.2016/Código Fonte/AgendaFacil/WebContent/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification">
+   <linked-resource declaration="true"
+    name="%1;%2;%3;%4;%5;%6;%7;%8;%9;%10;%11;" path="%0"/>
+  </core>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="42" name="%12" offset="1403" path="%13"/>
+   <linked-el length="42" name="%12" offset="655" path="%14"/>
+   <linked-el length="42" name="%12" offset="670" path="%15"/>
+   <linked-el length="21" name="%16" offset="941" path="%13"/>
+   <linked-el length="19" name="%16" offset="993" path="%13"/>
+   <linked-el length="20" name="%16" offset="1521" path="%13"/>
+   <linked-el length="20" name="%16" offset="1167" path="%13"/>
+   <linked-el length="41" name="%17" offset="932" path="%15"/>
+   <linked-el length="41" name="%17" offset="916" path="%14"/>
+   <linked-el length="31" name="%18" offset="2453" path="%15"/>
+   <linked-el length="21" name="%19" offset="941" path="%13"/>
+   <linked-el length="20" name="%19" offset="1521" path="%13"/>
+   <linked-el length="29" name="%20" offset="2308" path="%15"/>
+   <linked-el length="29" name="%20" offset="2222" path="%14"/>
+   <linked-el length="38" name="%21" offset="756" path="%13"/>
+   <linked-el length="28" name="%22" offset="1682" path="%13"/>
+   <linked-el length="20" name="%23" offset="1167" path="%13"/>
+   <linked-el length="42" name="%24" offset="1198" path="%15"/>
+   <linked-el length="44" name="%25" offset="1087" path="%15"/>
+   <linked-el length="44" name="%25" offset="1071" path="%14"/>
+   <linked-el length="38" name="%26" offset="1519" path="%15"/>
+   <linked-el length="18" name="%27" offset="1921" path="%15"/>
+   <linked-el length="18" name="%27" offset="1836" path="%14"/>
+   <linked-el length="30" name="%28" offset="2367" path="%14"/>
+   <linked-el length="30" name="%29" offset="2589" path="%15"/>
+   <linked-el length="32" name="%30" offset="1440" path="%14"/>
+   <linked-el length="41" name="%31" offset="932" path="%15"/>
+   <linked-el length="42" name="%31" offset="1403" path="%13"/>
+   <linked-el length="40" name="%31" offset="766" path="%14"/>
+   <linked-el length="47" name="%31" offset="1658" path="%15"/>
+   <linked-el length="42" name="%31" offset="655" path="%14"/>
+   <linked-el length="42" name="%31" offset="670" path="%15"/>
+   <linked-el length="40" name="%31" offset="781" path="%15"/>
+   <linked-el length="41" name="%31" offset="916" path="%14"/>
+   <linked-el length="47" name="%31" offset="1573" path="%14"/>
+   <linked-el length="18" name="%32" offset="1921" path="%15"/>
+   <linked-el length="21" name="%32" offset="1768" path="%14"/>
+   <linked-el length="17" name="%32" offset="2008" path="%14"/>
+   <linked-el length="18" name="%32" offset="1836" path="%14"/>
+   <linked-el length="21" name="%32" offset="1853" path="%15"/>
+   <linked-el length="17" name="%32" offset="2093" path="%15"/>
+   <linked-el length="40" name="%33" offset="766" path="%14"/>
+   <linked-el length="40" name="%33" offset="781" path="%15"/>
+   <linked-el length="19" name="%34" offset="993" path="%13"/>
+   <linked-el length="41" name="%35" offset="1182" path="%14"/>
+   <linked-el length="17" name="%36" offset="2008" path="%14"/>
+   <linked-el length="17" name="%36" offset="2093" path="%15"/>
+   <linked-el length="47" name="%37" offset="1658" path="%15"/>
+   <linked-el length="47" name="%37" offset="1573" path="%14"/>
+   <linked-el length="44" name="%38" offset="1087" path="%15"/>
+   <linked-el length="41" name="%38" offset="1182" path="%14"/>
+   <linked-el length="44" name="%38" offset="1071" path="%14"/>
+   <linked-el length="42" name="%38" offset="1198" path="%15"/>
+   <linked-el length="23" name="%39" offset="3927" path="%40"/>
+   <linked-el length="24" name="%39" offset="1269" path="%40"/>
+   <linked-el length="23" name="%39" offset="2776" path="%40"/>
+   <linked-el length="38" name="%39" offset="1106" path="%40"/>
+   <linked-el length="23" name="%39" offset="2940" path="%40"/>
+   <linked-el length="24" name="%39" offset="4093" path="%40"/>
+   <linked-el length="23" name="%39" offset="1039" path="%40"/>
+   <linked-el length="23" name="%39" offset="3601" path="%40"/>
+   <linked-el length="25" name="%39" offset="2168" path="%40"/>
+   <linked-el length="24" name="%39" offset="2325" path="%40"/>
+   <linked-el length="23" name="%39" offset="2613" path="%40"/>
+   <linked-el length="23" name="%39" offset="3765" path="%40"/>
+   <linked-el length="31" name="%39" offset="2021" path="%40"/>
+   <linked-el length="30" name="%39" offset="1860" path="%40"/>
+   <linked-el length="24" name="%39" offset="4265" path="%40"/>
+   <linked-el length="23" name="%39" offset="3435" path="%40"/>
+   <linked-el length="30" name="%39" offset="897" path="%40"/>
+   <linked-el length="24" name="%39" offset="654" path="%40"/>
+   <linked-el length="30" name="%39" offset="1454" path="%40"/>
+   <linked-el length="23" name="%39" offset="3103" path="%40"/>
+   <linked-el length="24" name="%39" offset="781" path="%40"/>
+   <linked-el length="24" name="%39" offset="1610" path="%40"/>
+   <linked-el length="23" name="%39" offset="3267" path="%40"/>
+   <linked-el length="24" name="%39" offset="1736" path="%40"/>
+   <linked-el length="32" name="%41" offset="1777" path="%13"/>
+   <linked-el length="21" name="%42" offset="1768" path="%14"/>
+   <linked-el length="21" name="%42" offset="1853" path="%15"/>
+   <linked-el length="44" name="%43" offset="1087" path="%15"/>
+   <linked-el length="29" name="%43" offset="2308" path="%15"/>
+   <linked-el length="29" name="%43" offset="578" path="%44"/>
+   <linked-el length="40" name="%43" offset="766" path="%14"/>
+   <linked-el length="44" name="%43" offset="1071" path="%14"/>
+   <linked-el length="40" name="%43" offset="781" path="%15"/>
+   <linked-el length="29" name="%43" offset="548" path="%45"/>
+   <linked-el length="31" name="%43" offset="2453" path="%15"/>
+   <linked-el length="29" name="%43" offset="2222" path="%14"/>
+   <linked-el length="28" name="%43" offset="1682" path="%13"/>
+   <linked-el length="32" name="%43" offset="1440" path="%14"/>
+   <linked-el length="42" name="%43" offset="670" path="%15"/>
+   <linked-el length="30" name="%43" offset="2589" path="%15"/>
+   <linked-el length="47" name="%43" offset="1573" path="%14"/>
+   <linked-el length="41" name="%43" offset="932" path="%15"/>
+   <linked-el length="41" name="%43" offset="1182" path="%14"/>
+   <linked-el length="42" name="%43" offset="655" path="%14"/>
+   <linked-el length="42" name="%43" offset="1198" path="%15"/>
+   <linked-el length="29" name="%43" offset="1414" path="%46"/>
+   <linked-el length="41" name="%43" offset="916" path="%14"/>
+   <linked-el length="38" name="%43" offset="1519" path="%15"/>
+   <linked-el length="29" name="%43" offset="642" path="%47"/>
+   <linked-el length="42" name="%43" offset="1403" path="%13"/>
+   <linked-el length="47" name="%43" offset="1658" path="%15"/>
+   <linked-el length="30" name="%43" offset="2367" path="%14"/>
+   <linked-el length="32" name="%43" offset="1777" path="%13"/>
+   <linked-el length="38" name="%43" offset="756" path="%13"/>
+   <linked-el length="21" name="%43" offset="1331" path="%13"/>
+   <linked-el length="23" name="%48" offset="3927" path="%40"/>
+   <linked-el length="24" name="%48" offset="1269" path="%40"/>
+   <linked-el length="23" name="%48" offset="2776" path="%40"/>
+   <linked-el length="38" name="%48" offset="1106" path="%40"/>
+   <linked-el length="23" name="%48" offset="2940" path="%40"/>
+   <linked-el length="24" name="%48" offset="4093" path="%40"/>
+   <linked-el length="23" name="%48" offset="1039" path="%40"/>
+   <linked-el length="23" name="%48" offset="3601" path="%40"/>
+   <linked-el length="25" name="%48" offset="2168" path="%40"/>
+   <linked-el length="24" name="%48" offset="2325" path="%40"/>
+   <linked-el length="23" name="%48" offset="2613" path="%40"/>
+   <linked-el length="23" name="%48" offset="3765" path="%40"/>
+   <linked-el length="31" name="%48" offset="2021" path="%40"/>
+   <linked-el length="30" name="%48" offset="1860" path="%40"/>
+   <linked-el length="24" name="%48" offset="4265" path="%40"/>
+   <linked-el length="23" name="%48" offset="3435" path="%40"/>
+   <linked-el length="30" name="%48" offset="897" path="%40"/>
+   <linked-el length="24" name="%48" offset="654" path="%40"/>
+   <linked-el length="30" name="%48" offset="1454" path="%40"/>
+   <linked-el length="23" name="%48" offset="3103" path="%40"/>
+   <linked-el length="24" name="%48" offset="781" path="%40"/>
+   <linked-el length="24" name="%48" offset="1610" path="%40"/>
+   <linked-el length="23" name="%48" offset="3267" path="%40"/>
+   <linked-el length="24" name="%48" offset="1736" path="%40"/>
+   <linked-el length="29" name="%49" offset="642" path="%47"/>
+   <linked-el length="29" name="%49" offset="578" path="%44"/>
+   <linked-el length="29" name="%49" offset="1414" path="%46"/>
+   <linked-el length="29" name="%49" offset="548" path="%45"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/xhtml/vwAlterarAgendamento.xhtml" value="%2"/>
+  <alias path="\AgendaFacil\WebContent\xhtml\vwAlterarAgendamento.xhtml" value="%4"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/index.xhtml" value="%40"/>
+  <alias path="pessoaController.pessoaBean.vlIdade" value="%17"/>
+  <alias path="/xhtml/vwListarAgendamento.xhtml" value="%8"/>
+  <alias path="pessoa.idPessoa" value="%19"/>
+  <alias path="\AgendaFacil\WebContent\xhtml\sucesso.xhtml" value="%10"/>
+  <alias path="pessoaController.remover" value="%20"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/vwCriarAgendamento.xhtml" value="%14"/>
+  <alias path="pessoaController.listaPessoaBean" value="%21"/>
+  <alias path="\AgendaFacil\WebContent\xhtml\vwCriarAgendamento.xhtml" value="%9"/>
+  <alias path="fone.dsNumero" value="%27"/>
+  <alias path="/xhtml/vwCriarAgendamento.xhtml" value="%3"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/sucesso.xhtml" value="%45"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/vwListarAgendamento.xhtml" value="%13"/>
+  <alias path="pessoaController.telefoneBean.clTipo" value="%35"/>
+  <alias path="\AgendaFacil\WebContent\xhtml\vwListarAgendamento.xhtml" value="%5"/>
+  <alias path="fone.clTipo" value="%36"/>
+  <alias path="fone.idTelefone" value="%42"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/index1.xhtml" value="%46"/>
+  <alias path="pessoaController.listar" value="%49"/>
+  <alias path="pessoaController.pessoaBean.idPessoa" value="%12"/>
+  <alias path="pessoa" value="%16"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/vwAlterarAgendamento.xhtml" value="%15"/>
+  <alias path="pessoaController.alterar" value="%18"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/falha.xhtml" value="%44"/>
+  <alias path="pessoaController.criar" value="%22"/>
+  <alias path="pessoa.vlIdade" value="%23"/>
+  <alias path="pessoaController.telefoneBean.telTipo" value="%24"/>
+  <alias path="pessoaController.telefoneBean.dsNumero" value="%25"/>
+  <alias path="pessoaController.adicionarEditar" value="%26"/>
+  <alias path="/AgendaFacil/WebContent/WEB-INF/faces-config.xml" value="%0"/>
+  <alias path="\AgendaFacil\WebContent\xhtml\falha.xhtml" value="%11"/>
+  <alias path="pessoaController.incluir" value="%28"/>
+  <alias path="/xhtml/sucesso.xhtml" value="%7"/>
+  <alias path="pessoaController.excluir" value="%29"/>
+  <alias path="pessoaController.adicionar" value="%30"/>
+  <alias path="pessoaController.pessoaBean" value="%31"/>
+  <alias path="org.springframework.web.jsf.el.SpringBeanFacesELResolver" value="%1"/>
+  <alias path="fone" value="%32"/>
+  <alias path="pessoaController.pessoaBean.dsNome" value="%33"/>
+  <alias path="pessoa.dsNome" value="%34"/>
+  <alias path="pessoaController.pessoaBean.listaTelefone" value="%37"/>
+  <alias path="pessoaController.telefoneBean" value="%38"/>
+  <alias path="calendarView" value="%39"/>
+  <alias path="/xhtml/falha.xhtml" value="%6"/>
+  <alias path="pessoaController.consultar" value="%41"/>
+  <alias path="pessoaController" value="%43"/>
+  <alias path="/AgendaFacil/WebContent/xhtml/vwPrincipal.xhtml" value="%47"/>
+  <alias path="/AgendaFacil/src/br/pucgoias/af/util/CalendarView.java" value="%48"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

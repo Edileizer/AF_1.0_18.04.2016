@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="8">
+    <list key="modules" value0="AgendaFacil::org.eclipse.jst.jee.server:AgendaFacil::jst.web::3.0" value1="ProjetoAgenda::org.eclipse.jst.jee.server:ProjetoAgenda::jst.web::3.0"/>
+  </server>
+  <server hostname="localhost" id="LiveReload Server at localhost" id-set="true" name="LiveReload Server at localhost" org.jboss.ide.eclipse.as.core.server.serverMode="livereload" org.jboss.tools.livereload.core.allow_remote_connections="false" org.jboss.tools.livereload.core.enable_proxy_server="true" org.jboss.tools.livereload.core.enable_script_injection="true" org.jboss.tools.livereload.core.notification_delay="0" org.jboss.tools.livereload.core.websocket_port="35729" runtime-id="LiveReload Server" server-type="org.jboss.tools.livereload.serverType" server-type-id="org.jboss.tools.livereload.serverType" start-timeout="240" stop-timeout="240" timestamp="0"/>
+</servers>
